@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const FriendListCSS = styled.ul`
   width: 500px;
+  padding: 0;
 `;
 
 export const ItemCSS = styled.li`

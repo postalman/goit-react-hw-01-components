@@ -1,25 +1,28 @@
 import styled from 'styled-components'
 
-export const Table = styled.table`
-  width: 450px;
+export const TableCSS = styled.table`
+  width: 500px;
   height: auto;
-  margin: 50px auto;
   text-align: center;
-  
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.15);
 `;
 
-export const Thead = styled.thead`
+export const TheadCSS = styled.thead`
   height: 35px;
   background: #30d5c8;
 `;
 
-export const Tr = styled.tr`
+export const TrCSS = styled.tr`
   height: 33px;
   text-transform: capitalize;
   font-size: 14px;
-  background: red;
+  background: white;
   &:nth-child(even) {
-    background: blue;
+    background: rgb(201 226 237);
   }
+`;
+
+export const ThCSS = styled.th`
+    color: white;
+    font-size: 15px;
 `;
