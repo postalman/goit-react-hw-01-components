@@ -11,7 +11,6 @@ export const App = () => {
   return (
     <div
       style={{
-        height: '100vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
@@ -24,7 +23,7 @@ export const App = () => {
       <User profile={user}/>
       <Data title="Upload stats" stats={data}/>
       <FriendList friends={friends}/>
-      {/* <Transactions/> */}
+      <Transactions items={transactions}/>
     </div>
   );
 };
